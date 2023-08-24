@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=Jura:wght@300&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;
+    font-size: 21px;
+    font-family: 'Jura', sans-serif;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    grid-gap: 10px;
+}
+.grid-item {
+    border: 1px solid #000000;
+    padding: 5px;
+}
+.grid-item img {
+    width: 100%;
+    gap: 10px;
+}
+.post-title {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.post-subtitle {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.post-content {
+    font-size: 17;
+    margin-bottom: 17;
+}
+
+.top-bar {
+    background-color: #F6F6F6;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.top-bar-icons {
+    display: flex;
+}
+
+.top-bar-icon {
+    margin: 0 10px;
+}

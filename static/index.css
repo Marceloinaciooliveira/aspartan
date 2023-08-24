@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=Jura:wght@300&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;
+    font-size: 21px;
+    font-family: 'Abel', sans-serif;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.title-main{
+    color: #F6F6F6;
+    font-size: 121px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.subtitle{
+    color: #F6F6F6;
+    font-size: 25px;
+    font-family: 'Jura', sans-serif;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.image {
+    margin: 10px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 1;
+}
