@@ -19,7 +19,7 @@ body{
 .grid {
     display: grid;
     grid-template-columns: 1fr 10fr;
-    grid-gap: 10px;
+    grid-gap: 20px;
 }
 .grid-item {
     border: 1px solid #000000;
@@ -27,7 +27,7 @@ body{
 }
 .grid-item img {
     width: 100%;
-    gap: 10px;
+    gap: 20px;
 }
 .post-title {
     font-size: 30px;
@@ -38,9 +38,16 @@ body{
     margin-bottom: 20px;
 }
 
-.post-content {
+.post-content1 {
     font-size: 17;
     margin-bottom: 17;
+    gap: 20px;
+}
+
+.post-content2 {
+    font-size: 17;
+    margin-bottom: 17;
+    gap: 20px;
 }
 
 .top-bar {
